@@ -736,49 +736,26 @@ footer{
 
     header{
         width: 100%;
-        position: fixed;
-        background-color: rgba(240, 248, 255, 0);
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    
+        
         .headerArea{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        background-color:#444360ee ;
-        height: 80px;
-        width: 80%;
-        border-bottom-left-radius: 1em;
-        border-bottom-right-radius: 1em;
+            height: 80px;
+            width: 90%;
     
             .logoArea{
-            display: flex;
-            width: 300px;
-            justify-content: center;
+                width: 300px;
+                justify-content: center;
             }
     
             img{
-                width: 200px;
+                width: 150px;
             }
     
-            ul{
-                padding: 0;
-                margin: 0;
-                display: flex;
-                justify-content: space-evenly;
-                list-style: none;
-                width: 500px;
-            }
     
             li{
-                color: $secondary;
     
                 a{
-                text-decoration: none;
-                color: $secondary;
-                font-weight: 600;
-                font-size: 22px;
+                font-size: 15px;
+                font-weight: 100;
                 }
             }
     
@@ -788,43 +765,22 @@ footer{
     }
 
     .slideShow{
-        background-color: $secondary;
-        height: 1410px;
-        width: 1000px;
-        display: flex;
+        height: 900px;
+        width: 600px;
 
         .imagen{
-            display:flex;
-            justify-content: flex-end;
-            align-items: center;
-            flex-direction: column;
             background-image: url('../img/imagenindex600.jpg');
             background-size: contain;
             width: 100%;
         }
     
         .text{
-            display: flex;
-            flex-direction: column;
-            margin-left: 2em;
-            width: 300px;
-            height: 130px;
-            justify-content: center;
-            align-items: center;
 
             button{
-                display: flex;
-                align-items: center;
-                justify-content: center;
                 width: 300px;
-                height: 80px;
-                border: none;
-                border-radius: 1em;
-                background-color: $accent;
+                height: 70px;
 
                 a{
-                    text-decoration: none;
-                    color: $secondary;
                     font-size: 30px;
                     font-weight: 600;
                 }
@@ -833,7 +789,7 @@ footer{
     }
     
     .categorias__texto{
-        width: 1000px;
+        width: 600px;
         
         h1{
             font-weight: 500;
@@ -841,42 +797,53 @@ footer{
     }
 
     .Categorias{
-        width: 1000px;
+        width: 600px;
 
         .categorias__area{
             h2{
                 font-weight: 600;
-                font-size: 30px;
+                font-size: 20px;
             }
 
             a{
-                width: 40%;
+                width: 50%;
             }
         }
 
     }
 
     .features{
-        width: 1000px;
+        width: 600px;
+        height: 1400px;
+        justify-content: center;
+        align-items: center;
         
         .featuresArea{
+            height: 1300px;
+            width: 600px;
+            flex-wrap: nowrap;
+            justify-content: center;
+            align-items: center;
+            
 
             .featuresStuff{
-                justify-content: space-around;
+                justify-content: space-evenly;
+                text-align: center;
+                width: 600px;
 
                 i{
-                    font-size: 2em;
+                    font-size: 20px;
                 }
 
                 h2{
                     text-align: center;
                     width: 80%;
-                    font-size: 1.5em;
+                    font-size: 20px;
                 }
 
                 p{
                     width: 80%;
-                    font-size: 1.2em;
+                    font-size: 15px;
                 }
             }
             
@@ -884,14 +851,15 @@ footer{
     }
 
     footer{
-        width: 1000px;
+        width: 600px;
 
         .footerContent{
+            width: 100%;
             justify-content: space-between;
-            padding-left: 1;
+            padding-left: 0,1;
 
             p{
-                font-size: 20px;
+                font-size: 15px;
             }
         }
     }
