@@ -647,8 +647,8 @@ footer .footerContent .social i {
   }
   .slideShow .imagen {
     background-repeat: no-repeat;
-    background-image: url("../img/imagenindex480.jpg");
-    background-size: cover;
+    background-image: url("../img/imagenindex845.jpg");
+    background-size: 100%;
     width: 100%;
   }
   .slideShow .text button {
