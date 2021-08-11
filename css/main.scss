@@ -735,10 +735,10 @@ footer{
 
 
     header{
-        width: 480px;
+        width: 360px;
         
         .headerArea{
-            height: 60px;
+            height: 50px;
             width: 90%;
     
             .logoArea{
@@ -747,14 +747,14 @@ footer{
             }
     
             img{
-                width: 130px;
+                width: 100px;
             }
     
     
             li{
     
                 a{
-                font-size: 10px;
+                font-size: 11px;
                 font-weight: 100;
                 }
             }
@@ -765,11 +765,12 @@ footer{
     }
 
     .slideShow{
-        height: 600px;
-        width: 480px;
+        height: 740px;
+        width: 360px;
 
         .imagen{
-            background-image: url('../img/imagenindex600.jpg');
+            background-repeat: no-repeat;
+            background-image: url('../img/imagenindex360.jpg');
             background-size: contain;
             width: 100%;
         }
@@ -789,38 +790,56 @@ footer{
     }
     
     .categorias__texto{
-        width: 480px;
+        width: 360px;
         
         h1{
+            font-size: 1em;
             font-weight: 500;
         }
     }
 
     .Categorias{
-        width: 480px;
+        width: 360px;
 
         .categorias__area{
             h2{
                 font-weight: 600;
-                font-size: 20px;
+                font-size: 15px;
             }
 
             a{
                 width: 50%;
+                height: 40px;
             }
+        }
+
+        #Hogar{
+            background-image: url(../img/categorias/hogars.jpg);
+        }
+    
+        #Sonido{
+            background-image: url(../img/categorias/sonidos.jpg);
+        }
+    
+        #Deportes{
+            background-image: url(../img/categorias/deporte-s.jpg);
+        }
+    
+        #Accesorios{
+            background-image: url(../img/categorias/accesorios-s.jpg);
         }
 
     }
 
     .features{
-        width: 480px;
+        width: 360px;
         height: 1400px;
         justify-content: center;
         align-items: center;
         
         .featuresArea{
             height: 1300px;
-            width: 480px;
+            width: 360px;
             flex-wrap: nowrap;
             justify-content: center;
             align-items: center;
@@ -829,7 +848,7 @@ footer{
             .featuresStuff{
                 justify-content: space-evenly;
                 text-align: center;
-                width: 480px;
+                width: 360px;
 
                 i{
                     font-size: 20px;
@@ -851,16 +870,22 @@ footer{
     }
 
     footer{
-        width: 480px;
+        width: 360px;
+        height: 50px;
 
         .footerContent{
             width: 100%;
+            height: 50px;
             justify-content: space-between;
             padding-left: 0,1;
 
             p{
-                font-size: 15px;
+                font-size: 10px;
             }
+        }
+
+        .social{
+            width: 20px;
         }
     }
 

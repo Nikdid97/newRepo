@@ -624,10 +624,10 @@ footer .footerContent .social i {
 /* media queries */
 @media (max-width: 480px) {
   header {
-    width: 480px;
+    width: 360px;
   }
   header .headerArea {
-    height: 60px;
+    height: 50px;
     width: 90%;
   }
   header .headerArea .logoArea {
@@ -635,19 +635,20 @@ footer .footerContent .social i {
     justify-content: center;
   }
   header .headerArea img {
-    width: 130px;
+    width: 100px;
   }
   header .headerArea li a {
-    font-size: 10px;
+    font-size: 11px;
     font-weight: 100;
   }
 
   .slideShow {
-    height: 600px;
-    width: 480px;
+    height: 740px;
+    width: 360px;
   }
   .slideShow .imagen {
-    background-image: url("../img/imagenindex600.jpg");
+    background-repeat: no-repeat;
+    background-image: url("../img/imagenindex360.jpg");
     background-size: contain;
     width: 100%;
   }
@@ -661,32 +662,46 @@ footer .footerContent .social i {
   }
 
   .categorias__texto {
-    width: 480px;
+    width: 360px;
   }
   .categorias__texto h1 {
+    font-size: 1em;
     font-weight: 500;
   }
 
   .Categorias {
-    width: 480px;
+    width: 360px;
   }
   .Categorias .categorias__area h2 {
     font-weight: 600;
-    font-size: 20px;
+    font-size: 15px;
   }
   .Categorias .categorias__area a {
     width: 50%;
+    height: 40px;
+  }
+  .Categorias #Hogar {
+    background-image: url(../img/categorias/hogars.jpg);
+  }
+  .Categorias #Sonido {
+    background-image: url(../img/categorias/sonidos.jpg);
+  }
+  .Categorias #Deportes {
+    background-image: url(../img/categorias/deporte-s.jpg);
+  }
+  .Categorias #Accesorios {
+    background-image: url(../img/categorias/accesorios-s.jpg);
   }
 
   .features {
-    width: 480px;
+    width: 360px;
     height: 1400px;
     justify-content: center;
     align-items: center;
   }
   .features .featuresArea {
     height: 1300px;
-    width: 480px;
+    width: 360px;
     flex-wrap: nowrap;
     justify-content: center;
     align-items: center;
@@ -694,7 +709,7 @@ footer .footerContent .social i {
   .features .featuresArea .featuresStuff {
     justify-content: space-evenly;
     text-align: center;
-    width: 480px;
+    width: 360px;
   }
   .features .featuresArea .featuresStuff i {
     font-size: 20px;
@@ -710,14 +725,19 @@ footer .footerContent .social i {
   }
 
   footer {
-    width: 480px;
+    width: 360px;
+    height: 50px;
   }
   footer .footerContent {
     width: 100%;
+    height: 50px;
     justify-content: space-between;
     padding-left: 0, 1;
   }
   footer .footerContent p {
-    font-size: 15px;
+    font-size: 10px;
+  }
+  footer .social {
+    width: 20px;
   }
 }/*# sourceMappingURL=main.css.map */
