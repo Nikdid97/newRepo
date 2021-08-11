@@ -731,14 +731,14 @@ footer{
 
 /* media queries */
 
-@media (max-width: 600px){
+@media (max-width: 480px){
 
 
     header{
-        width: 100%;
+        width: 480px;
         
         .headerArea{
-            height: 80px;
+            height: 60px;
             width: 90%;
     
             .logoArea{
@@ -747,14 +747,14 @@ footer{
             }
     
             img{
-                width: 150px;
+                width: 130px;
             }
     
     
             li{
     
                 a{
-                font-size: 15px;
+                font-size: 10px;
                 font-weight: 100;
                 }
             }
@@ -765,8 +765,8 @@ footer{
     }
 
     .slideShow{
-        height: 900px;
-        width: 600px;
+        height: 600px;
+        width: 480px;
 
         .imagen{
             background-image: url('../img/imagenindex600.jpg');
@@ -777,11 +777,11 @@ footer{
         .text{
 
             button{
-                width: 300px;
-                height: 70px;
+                width: 150px;
+                height: 50px;
 
                 a{
-                    font-size: 30px;
+                    font-size: 20px;
                     font-weight: 600;
                 }
             }
@@ -789,7 +789,7 @@ footer{
     }
     
     .categorias__texto{
-        width: 600px;
+        width: 480px;
         
         h1{
             font-weight: 500;
@@ -797,7 +797,7 @@ footer{
     }
 
     .Categorias{
-        width: 600px;
+        width: 480px;
 
         .categorias__area{
             h2{
@@ -813,14 +813,14 @@ footer{
     }
 
     .features{
-        width: 600px;
+        width: 480px;
         height: 1400px;
         justify-content: center;
         align-items: center;
         
         .featuresArea{
             height: 1300px;
-            width: 600px;
+            width: 480px;
             flex-wrap: nowrap;
             justify-content: center;
             align-items: center;
@@ -829,7 +829,7 @@ footer{
             .featuresStuff{
                 justify-content: space-evenly;
                 text-align: center;
-                width: 600px;
+                width: 480px;
 
                 i{
                     font-size: 20px;
@@ -851,7 +851,7 @@ footer{
     }
 
     footer{
-        width: 600px;
+        width: 480px;
 
         .footerContent{
             width: 100%;
