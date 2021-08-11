@@ -295,17 +295,15 @@ footer {
   align-items: center;
   height: 100px;
   width: 100%;
+  background-color: #444360;
 }
 footer .footerContent {
   display: flex;
   height: 100px;
   width: 100%;
-  border-top-left-radius: 1em;
-  border-top-right-radius: 1em;
   justify-content: space-between;
   align-items: center;
   padding-left: 1em;
-  background-color: #444360;
 }
 footer .footerContent a {
   text-decoration: none;
@@ -647,7 +645,7 @@ footer .footerContent .social i {
   }
   .slideShow .imagen {
     background-repeat: no-repeat;
-    background-image: url("../img/imagenindex845.jpg");
+    background-image: url("../img/imagenindex480.jpg");
     background-size: 100%;
     width: 100%;
   }
@@ -750,6 +748,27 @@ footer .footerContent .social i {
     width: 80%;
   }
 
+  .lista2 {
+    height: 100%;
+  }
+  .lista2 .lista2__items {
+    margin-top: 5em;
+    margin-bottom: 1em;
+    width: 80%;
+    height: 400px;
+  }
+  .lista2 .lista2__items .lista2__imagen {
+    width: 200px;
+  }
+  .lista2 .lista2__items .lista2__imagen img {
+    width: 100%;
+    height: 100%;
+  }
+  .lista2 .lista2__items .lista2__text {
+    font-size: 0.8em;
+    width: 80%;
+  }
+
   .firstSection {
     height: 500px;
   }
@@ -790,6 +809,44 @@ footer .footerContent .social i {
     width: 100%;
     height: 100%;
   }
+
+  .contactForm {
+    margin-top: 4em;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+  }
+  .contactForm .contactFormBody {
+    width: 100%;
+  }
+  .contactForm .contactFormBody .contactFormArea {
+    background-color: whitesmoke;
+    width: 90%;
+  }
+  .contactForm .contactFormBody .contactFormArea h3 {
+    font-size: 1em;
+  }
+  .contactForm .contactFormBody .contactFormArea input {
+    width: 80%;
+  }
+  .contactForm .contactFormBody .contactFormArea textarea {
+    width: 80%;
+  }
+  .contactForm .sobreNosotros {
+    width: 100%;
+  }
+  .contactForm .sobreNosotros .sobreNosotrosArea h1 {
+    font-size: 20px;
+  }
+  .contactForm .sobreNosotros .sobreNosotrosArea h2 {
+    font-size: 15px;
+  }
+  .contactForm .sobreNosotros .sobreNosotrosArea p {
+    font-size: 13px;
+  }
+  .contactForm .sobreNosotros .sobreNosotrosArea i {
+    width: 40%;
+  }
 }
 @media (max-width: 900px) {
   header {
@@ -817,7 +874,7 @@ footer .footerContent .social i {
   }
   .slideShow .imagen {
     background-repeat: no-repeat;
-    background-image: url("../img/imagenindexancho.jpg");
+    background-image: url("../img/imagenindex600.jpg");
     background-size: cover;
     width: 100%;
     height: 400px;
@@ -897,5 +954,126 @@ footer .footerContent .social i {
   }
   footer .social {
     width: 20px;
+  }
+
+  .lista {
+    height: 100%;
+  }
+  .lista .lista__items {
+    margin-top: 5em;
+    margin-bottom: 1em;
+    width: 80%;
+    height: 400px;
+  }
+  .lista .lista__items .lista__imagen {
+    width: 200px;
+  }
+  .lista .lista__items .lista__imagen img {
+    width: 100%;
+    height: 100%;
+  }
+  .lista .lista__items .lista__text {
+    font-size: 0.8em;
+    width: 80%;
+  }
+
+  .lista2 {
+    height: 100%;
+  }
+  .lista2 .lista2__items {
+    margin-top: 5em;
+    margin-bottom: 1em;
+    width: 80%;
+    height: 400px;
+  }
+  .lista2 .lista2__items .lista2__imagen {
+    width: 200px;
+  }
+  .lista2 .lista2__items .lista2__imagen img {
+    width: 100%;
+    height: 100%;
+  }
+  .lista2 .lista2__items .lista2__text {
+    font-size: 0.8em;
+    width: 80%;
+  }
+
+  .firstSection {
+    height: 500px;
+  }
+  .firstSection .leftSide .leftSideArea h1 {
+    font-size: 1em;
+  }
+  .firstSection .leftSide .leftSideArea p {
+    font-size: 0.9em;
+  }
+  .firstSection .leftSide .leftSideArea input {
+    width: 80px;
+    font-size: 1em;
+  }
+  .firstSection .leftSide .leftSideArea img {
+    width: 200px;
+  }
+  .firstSection .rightSide .rightSideArea .specsText {
+    padding: 0.4em;
+  }
+  .firstSection .rightSide .rightSideArea .specsText i {
+    font-size: 15px;
+  }
+  .firstSection .rightSide .rightSideArea .specsText h2 {
+    font-size: 11px;
+  }
+  .firstSection .rightSide .rightSideArea .specsText p {
+    font-size: 10px;
+  }
+
+  .productos .producto {
+    width: 100%;
+  }
+
+  .productPhotos {
+    height: 200px;
+  }
+  .productPhotos .productPhotosArea img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .contactForm {
+    margin-top: 4em;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+  }
+  .contactForm .contactFormBody {
+    width: 100%;
+  }
+  .contactForm .contactFormBody .contactFormArea {
+    background-color: whitesmoke;
+    width: 90%;
+  }
+  .contactForm .contactFormBody .contactFormArea h3 {
+    font-size: 1em;
+  }
+  .contactForm .contactFormBody .contactFormArea input {
+    width: 80%;
+  }
+  .contactForm .contactFormBody .contactFormArea textarea {
+    width: 80%;
+  }
+  .contactForm .sobreNosotros {
+    width: 100%;
+  }
+  .contactForm .sobreNosotros .sobreNosotrosArea h1 {
+    font-size: 20px;
+  }
+  .contactForm .sobreNosotros .sobreNosotrosArea h2 {
+    font-size: 15px;
+  }
+  .contactForm .sobreNosotros .sobreNosotrosArea p {
+    font-size: 13px;
+  }
+  .contactForm .sobreNosotros .sobreNosotrosArea i {
+    width: 40%;
   }
 }/*# sourceMappingURL=main.css.map */

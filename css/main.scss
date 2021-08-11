@@ -350,6 +350,8 @@ footer{
     align-items: center;
     height: 100px;
     width: 100%;
+    background-color: $primary;
+    
     
 
 
@@ -357,12 +359,10 @@ footer{
         display: flex;
         height: 100px;
         width: 100%;
-        border-top-left-radius: 1em;
-        border-top-right-radius: 1em;
         justify-content: space-between;
         align-items: center;
         padding-left: 1em;
-        background-color: $primary;
+        
 
         a{
             text-decoration: none;
@@ -769,7 +769,7 @@ footer{
 
         .imagen{
             background-repeat: no-repeat;
-            background-image: url('../img/imagenindex845.jpg');
+            background-image: url('../img/imagenindex480.jpg');
             background-size: 100%;
             width: 100%;
         }
@@ -905,6 +905,35 @@ footer{
 
     }
 
+    .lista2{
+
+        height: 100%;
+
+        .lista2__items{
+            margin-top: 5em;
+            margin-bottom: 1em;
+            width: 80%;
+            height: 400px;
+
+            .lista2__imagen{
+
+                width: 200px;
+
+                img{
+                    width: 100%;
+                    height: 100%;
+                    
+                }
+            }
+
+            .lista2__text{
+                font-size: 0.8em;
+                width: 80%;
+            }
+        }
+
+    }
+
     .firstSection{
         height: 500px;
 
@@ -978,6 +1007,58 @@ footer{
 
     }
 
+    .contactForm{
+        margin-top: 4em;
+        height: 100%;
+        width: 100%;
+        flex-direction: column;
+
+        .contactFormBody{
+            width: 100%;
+            
+
+            .contactFormArea{
+                background-color: whitesmoke;
+                width: 90%;
+
+                h3{
+                    font-size: 1em;
+                }
+
+                input{
+                    width: 80%;
+                }
+
+                textarea{
+                    width: 80%;
+                }
+            }
+        }
+
+        .sobreNosotros{
+            width: 100%;
+
+            .sobreNosotrosArea{
+
+                h1{
+                    font-size: 20px;
+                }
+
+                h2{
+                    font-size: 15px;
+                }
+
+                p{
+                    font-size: 13px;
+                }
+
+                i{
+                    width: 40%;
+                }
+            }
+        }
+    }
+
 }
 
 @media (max-width: 900px){
@@ -1019,7 +1100,7 @@ footer{
 
         .imagen{
             background-repeat: no-repeat;
-            background-image: url('../img/imagenindexancho.jpg');
+            background-image: url('../img/imagenindex600.jpg');
             background-size: cover;
             width: 100%;
             height: 400px;
@@ -1125,5 +1206,189 @@ footer{
         }
     }
 
+    .lista{
+
+        height: 100%;
+
+        .lista__items{
+            margin-top: 5em;
+            margin-bottom: 1em;
+            width: 80%;
+            height: 400px;
+
+            .lista__imagen{
+
+                width: 200px;
+
+                img{
+                    width: 100%;
+                    height: 100%;
+                    
+                }
+            }
+
+            .lista__text{
+                font-size: 0.8em;
+                width: 80%;
+            }
+        }
+
+    }
+
+    .lista2{
+
+        height: 100%;
+
+        .lista2__items{
+            margin-top: 5em;
+            margin-bottom: 1em;
+            width: 80%;
+            height: 400px;
+
+            .lista2__imagen{
+
+                width: 200px;
+
+                img{
+                    width: 100%;
+                    height: 100%;
+                    
+                }
+            }
+
+            .lista2__text{
+                font-size: 0.8em;
+                width: 80%;
+            }
+        }
+
+    }
+
+    .firstSection{
+        height: 500px;
+
+        .leftSide{
+            
+            .leftSideArea{
+                
+
+                h1{
+                    font-size: 1em;
+                }
+
+                p{
+                    font-size: 0.9em;
+                }
+
+                input{
+                    width: 80px;
+                    font-size: 1em;
+                }
+
+                img{
+                    width: 200px;
+                }
+            }
+
+        }
+
+        .rightSide{
+
+            .rightSideArea{
+
+                .specsText{
+                    padding: 0.4em;
+
+                    i{
+                        font-size: 15px;
+                    }
+
+                    h2{
+                        font-size: 11px;
+                    }
+
+                    p{
+                        font-size: 10px;
+                    }
+                }
+                
+            }
+        }
+        
+        
+    }
+
+    .productos{
+        .producto{
+            width: 100%;
+        }
+    }
+
+    .productPhotos{
+
+        height: 200px;
+
+        .productPhotosArea{
+         img{
+             width: 100%;
+             height: 100%;
+            }
+         }
+
+    }
+
+    .contactForm{
+        margin-top: 4em;
+        height: 100%;
+        width: 100%;
+        flex-direction: column;
+
+        .contactFormBody{
+            width: 100%;
+            
+
+            .contactFormArea{
+                background-color: whitesmoke;
+                width: 90%;
+
+                h3{
+                    font-size: 1em;
+                }
+
+                input{
+                    width: 80%;
+                }
+
+                textarea{
+                    width: 80%;
+                }
+            }
+        }
+
+        .sobreNosotros{
+            width: 100%;
+
+            .sobreNosotrosArea{
+
+                h1{
+                    font-size: 20px;
+                }
+
+                h2{
+                    font-size: 15px;
+                }
+
+                p{
+                    font-size: 13px;
+                }
+
+                i{
+                    width: 40%;
+                }
+            }
+        }
+    }
 
 }
+
+
