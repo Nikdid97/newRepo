@@ -622,9 +622,9 @@ footer .footerContent .social i {
 }
 
 /* media queries */
-@media (max-width: 375px) {
+@media (min-width: 480px) {
   header {
-    width: 375px;
+    width: 480px;
   }
   header .headerArea {
     height: 50px;
@@ -644,11 +644,11 @@ footer .footerContent .social i {
 
   .slideShow {
     height: 740px;
-    width: 375px;
+    width: 480px;
   }
   .slideShow .imagen {
     background-repeat: no-repeat;
-    background-image: url("../img/imagenindex375.jpg");
+    background-image: url("../img/imagenindex480.jpg");
     background-size: contain;
     width: 100%;
   }
@@ -662,7 +662,7 @@ footer .footerContent .social i {
   }
 
   .categorias__texto {
-    width: 375px;
+    width: 480px;
   }
   .categorias__texto h1 {
     font-size: 1em;
@@ -670,7 +670,7 @@ footer .footerContent .social i {
   }
 
   .Categorias {
-    width: 375px;
+    width: 480px;
   }
   .Categorias .categorias__area h2 {
     font-weight: 600;
@@ -682,7 +682,7 @@ footer .footerContent .social i {
   }
 
   .features {
-    width: 375px;
+    width: 480px;
     height: 1400px;
     justify-content: center;
     align-items: center;
@@ -697,7 +697,7 @@ footer .footerContent .social i {
   .features .featuresArea .featuresStuff {
     justify-content: space-evenly;
     text-align: center;
-    width: 375px;
+    width: 480px;
   }
   .features .featuresArea .featuresStuff i {
     font-size: 20px;
@@ -713,7 +713,7 @@ footer .footerContent .social i {
   }
 
   footer {
-    width: 375px;
+    width: 480px;
     height: 50px;
   }
   footer .footerContent {

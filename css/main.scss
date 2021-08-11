@@ -731,11 +731,11 @@ footer{
 
 /* media queries */
 
-@media (max-width: 375px){
+@media (min-width: 480px){
 
 
     header{
-        width: 375px;
+        width: 480px;
         
         .headerArea{
             height: 50px;
@@ -766,11 +766,11 @@ footer{
 
     .slideShow{
         height: 740px;
-        width: 375px;
+        width: 480px;
 
         .imagen{
             background-repeat: no-repeat;
-            background-image: url('../img/imagenindex375.jpg');
+            background-image: url('../img/imagenindex480.jpg');
             background-size: contain;
             width: 100%;
         }
@@ -790,7 +790,7 @@ footer{
     }
     
     .categorias__texto{
-        width: 375px;
+        width: 480px;
         
         h1{
             font-size: 1em;
@@ -799,7 +799,7 @@ footer{
     }
 
     .Categorias{
-        width: 375px;
+        width: 480px;
 
         .categorias__area{
             h2{
@@ -818,7 +818,7 @@ footer{
     }
 
     .features{
-        width: 375px;
+        width: 480px;
         height: 1400px;
         justify-content: center;
         align-items: center;
@@ -834,7 +834,7 @@ footer{
             .featuresStuff{
                 justify-content: space-evenly;
                 text-align: center;
-                width: 375px;
+                width: 480px;
 
                 i{
                     font-size: 20px;
@@ -856,7 +856,7 @@ footer{
     }
 
     footer{
-        width: 375px;
+        width: 480px;
         height: 50px;
 
         .footerContent{
